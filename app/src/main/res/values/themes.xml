@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tecsupapp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/cyan_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Tecsupapp" parent="Base.Theme.Tecsupapp" />
+
+    <style name="CircleImageShape">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

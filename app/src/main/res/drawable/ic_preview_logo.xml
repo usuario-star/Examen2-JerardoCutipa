@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="36"
+    android:viewportHeight="36">
+  <!-- Outer circle ring green -->
+  <path
+      android:fillColor="#4CAF50"
+      android:pathData="M18,2A16,16 0,1 0,34 18,16 16,0 1,0 18,2zM18,30A12,12 0,1 1,30 18,12 12,0 1,1 18,30z"/>
+  <!-- Q tail / inner accent -->
+  <path
+      android:fillColor="#4CAF50"
+      android:pathData="M22,22L28,28L25,31L19,25Z"/>
+</vector>

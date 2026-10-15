@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="120dp"
+    android:viewportWidth="160"
+    android:viewportHeight="120">
+  <!-- Diagonal stripes emblem -->
+  <path
+      android:fillColor="#00A8E8"
+      android:pathData="M35,20 L65,20 L40,75 L10,75 Z" />
+  <path
+      android:fillColor="#0077B6"
+      android:pathData="M60,20 L90,20 L65,75 L35,75 Z" />
+  <path
+      android:fillColor="#0096C7"
+      android:pathData="M85,20 L115,20 L90,75 L60,75 Z" />
+  <path
+      android:fillColor="#03045E"
+      android:pathData="M110,20 L140,20 L115,75 L85,75 Z" />
+  <!-- Text "NEWS" below -->
+  <path
+      android:fillColor="#1E293B"
+      android:pathData="M42,90 h4 v18 h-4 v-12 l-6,12 h-3 l-6,-12 v12 h-4 v-18 h4 l6,12 Z
+                        M68,90 h12 v3 h-8 v4 h7 v3 h-7 v5 h8 v3 h-12 Z
+                        M108,90 h4 l4,18 h-4 l-1,-5 h-6 l-1,5 h-4 Z M108,94 l-2,7 h4 Z
+                        M124,90 h4 l3,12 3,-12 h4 l-5,18 h-4 Z" />
+</vector>

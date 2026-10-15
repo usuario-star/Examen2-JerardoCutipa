@@ -1,0 +1,81 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Fondo turquesa / teal -->
+    <path
+        android:pathData="M0,0h200v200H0z"
+        android:fillColor="#138A8A"/>
+
+    <!-- Cuello de la camisa blanca -->
+    <path
+        android:pathData="M70,155 L100,185 L95,190 L65,160 Z"
+        android:fillColor="#FFFFFF"/>
+    <path
+        android:pathData="M130,155 L100,185 L105,190 L135,160 Z"
+        android:fillColor="#FFFFFF"/>
+    <!-- Botón de la camisa -->
+    <path
+        android:pathData="M100,172 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"
+        android:fillColor="#CFD8DC"/>
+
+    <!-- Cuello -->
+    <path
+        android:pathData="M85,135 h30 v30 h-30 z"
+        android:fillColor="#FFB088"/>
+
+    <!-- Rostro -->
+    <path
+        android:pathData="M50,75 C50,55 60,45 100,45 C140,45 150,55 150,75 L150,110 C150,135 130,145 100,145 C70,145 50,135 50,110 Z"
+        android:fillColor="#FFB088"/>
+
+    <!-- Oreja izquierda -->
+    <path
+        android:pathData="M40,75 C40,70 50,70 50,80 C50,90 40,90 40,75 Z"
+        android:fillColor="#FFB088"/>
+
+    <!-- Oreja derecha -->
+    <path
+        android:pathData="M160,75 C160,70 150,70 150,80 C150,90 160,90 160,75 Z"
+        android:fillColor="#FFB088"/>
+
+    <!-- Cabello (Negro / Azul oscuro) -->
+    <path
+        android:pathData="M45,70 C40,30 70,15 100,15 C130,15 160,30 155,70 C145,50 135,35 100,35 C65,35 55,50 45,70 Z"
+        android:fillColor="#1E2830"/>
+    <path
+        android:pathData="M50,55 C60,40 90,30 100,35 C80,30 60,35 50,55 Z"
+        android:fillColor="#1E2830"/>
+
+    <!-- Cejas -->
+    <path
+        android:pathData="M65,72 h20 v5 h-20 z"
+        android:fillColor="#1E2830"/>
+    <path
+        android:pathData="M115,72 h20 v5 h-20 z"
+        android:fillColor="#1E2830"/>
+
+    <!-- Ojos -->
+    <path
+        android:pathData="M72,85 C72,80 80,80 80,85 C80,92 72,92 72,85 Z"
+        android:fillColor="#1E2830"/>
+    <path
+        android:pathData="M120,85 C120,80 128,80 128,85 C128,92 120,92 120,85 Z"
+        android:fillColor="#1E2830"/>
+
+    <!-- Mejillas rosadas -->
+    <path
+        android:pathData="M62,100 h18 v8 h-18 z"
+        android:fillColor="#FF8A8A"/>
+    <path
+        android:pathData="M120,100 h18 v8 h-18 z"
+        android:fillColor="#FF8A8A"/>
+
+    <!-- Boca sonriente grande -->
+    <path
+        android:pathData="M75,115 Q100,140 125,115 Z"
+        android:fillColor="#FFFFFF"/>
+
+</vector>

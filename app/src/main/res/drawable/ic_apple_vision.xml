@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="120dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+  <path
+      android:fillColor="#0D1117"
+      android:pathData="M0,0h360v200H0z"/>
+  <!-- Head outline / face -->
+  <path
+      android:fillColor="#8D5B4C"
+      android:pathData="M130,50 C130,50 180,30 230,50 C240,110 240,160 220,190 C180,205 140,200 130,180 Z"/>
+  <!-- Apple Vision Pro headset -->
+  <path
+      android:fillColor="#1F2937"
+      android:pathData="M110,60 C110,50 250,50 250,60 L245,120 C245,130 115,130 115,120 Z"/>
+  <!-- Curved reflective glass screen -->
+  <path
+      android:fillColor="#000000"
+      android:pathData="M120,65 C120,58 240,58 240,65 L235,115 C235,122 125,122 125,115 Z"/>
+  <!-- Reflection on glass -->
+  <path
+      android:fillColor="#38BDF8"
+      android:pathData="M140,75 C140,70 170,70 180,85 C170,90 140,85 140,75 Z"/>
+  <!-- Logo / text glow -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M165,90 h30 v3 h-30 z"/>
+</vector>
